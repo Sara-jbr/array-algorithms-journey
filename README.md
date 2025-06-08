@@ -11,7 +11,7 @@ Advanced Level: To tackle optimization, dynamic programming, and complex array m
 
 ---
 
-## 🔷 Array Definition
+## Array Definition
 An array is a data structure that allows you to store multiple values of the same type in a single variable.
 
 Arrays store data contiguously in memory.
