@@ -114,8 +114,39 @@ Mobile contact list
 | Loops for Traversal       | Commonly accessed using `for` or `foreach` loops                           |
 
 ---
+## Algorithm Efficiency Guide
 
-## 🔁 Traversing Arrays with Loops
+### Time Complexity (How fast an algorithm runs)
+
+- **O(1) — Constant Time:**  
+  The operation takes the same time regardless of input size (e.g., accessing an element by index in an array).
+
+- **O(n) — Linear Time:**  
+  Time grows linearly with input size (e.g., traversing an array).
+
+- **O(log n) — Logarithmic Time:**  
+  Time grows slowly, typically with divide-and-conquer (e.g., binary search).
+
+- **O(n²) — Quadratic Time:**  
+  Time grows proportional to the square of the input size (e.g., bubble sort).
+
+###  Space Complexity (How much extra memory an algorithm uses)
+
+- **O(1) — Constant Space:**  
+  Uses a fixed amount of memory regardless of input size (e.g., swapping elements in-place).
+
+- **O(n) — Linear Space:**  
+  Uses memory proportional to input size (e.g., creating a new array to store results).
+
+---
+
+**Remember:**  
+Lower time and space complexity means better efficiency.  
+Choosing the right algorithm depends on the problem and constraints.
+
+---
+
+## Traversing Arrays with Loops
 
 ```java
 int[] numbers = {10, 20, 30, 40};
